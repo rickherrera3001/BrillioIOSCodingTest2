@@ -11,6 +11,10 @@
 		D0EE41D62BCF220B003FD853 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0EE41D52BCF220B003FD853 /* ContentView.swift */; };
 		D0EE41D82BCF220C003FD853 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D0EE41D72BCF220C003FD853 /* Assets.xcassets */; };
 		D0EE41DB2BCF220C003FD853 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D0EE41DA2BCF220C003FD853 /* Preview Assets.xcassets */; };
+		D0EE41E52BCF22E0003FD853 /* ApiClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0EE41E42BCF22E0003FD853 /* ApiClient.swift */; };
+		D0EE41E72BCF2346003FD853 /* BrillionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0EE41E62BCF2346003FD853 /* BrillionModel.swift */; };
+		D0EE41E92BCF2B28003FD853 /* BrillionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0EE41E82BCF2B28003FD853 /* BrillionViewModel.swift */; };
+		D0EE41ED2BCF4E26003FD853 /* BrillonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0EE41EC2BCF4E26003FD853 /* BrillonView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +23,10 @@
 		D0EE41D52BCF220B003FD853 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		D0EE41D72BCF220C003FD853 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D0EE41DA2BCF220C003FD853 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D0EE41E42BCF22E0003FD853 /* ApiClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiClient.swift; sourceTree = "<group>"; };
+		D0EE41E62BCF2346003FD853 /* BrillionModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrillionModel.swift; sourceTree = "<group>"; };
+		D0EE41E82BCF2B28003FD853 /* BrillionViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrillionViewModel.swift; sourceTree = "<group>"; };
+		D0EE41EC2BCF4E26003FD853 /* BrillonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrillonView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +59,9 @@
 		D0EE41D22BCF220B003FD853 /* BrillioIOSCodingTest2 */ = {
 			isa = PBXGroup;
 			children = (
+				D0EE41E32BCF22C7003FD853 /* Network */,
+				D0EE41E22BCF22B9003FD853 /* Moduls */,
+				D0EE41E12BCF22B2003FD853 /* Models */,
 				D0EE41D32BCF220B003FD853 /* BrillioIOSCodingTest2App.swift */,
 				D0EE41D52BCF220B003FD853 /* ContentView.swift */,
 				D0EE41D72BCF220C003FD853 /* Assets.xcassets */,
@@ -65,6 +76,31 @@
 				D0EE41DA2BCF220C003FD853 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D0EE41E12BCF22B2003FD853 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				D0EE41E62BCF2346003FD853 /* BrillionModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		D0EE41E22BCF22B9003FD853 /* Moduls */ = {
+			isa = PBXGroup;
+			children = (
+				D0EE41E82BCF2B28003FD853 /* BrillionViewModel.swift */,
+				D0EE41EC2BCF4E26003FD853 /* BrillonView.swift */,
+			);
+			path = Moduls;
+			sourceTree = "<group>";
+		};
+		D0EE41E32BCF22C7003FD853 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				D0EE41E42BCF22E0003FD853 /* ApiClient.swift */,
+			);
+			path = Network;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,7 +174,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				D0EE41D62BCF220B003FD853 /* ContentView.swift in Sources */,
+				D0EE41ED2BCF4E26003FD853 /* BrillonView.swift in Sources */,
 				D0EE41D42BCF220B003FD853 /* BrillioIOSCodingTest2App.swift in Sources */,
+				D0EE41E72BCF2346003FD853 /* BrillionModel.swift in Sources */,
+				D0EE41E92BCF2B28003FD853 /* BrillionViewModel.swift in Sources */,
+				D0EE41E52BCF22E0003FD853 /* ApiClient.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
